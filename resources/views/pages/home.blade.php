@@ -5,7 +5,7 @@
 
 @section('content')
 
-    <section id="section-intro" class="no-top no-bottom relative overflow-hidden z-1000">
+    <section id="section-intro" class="no-top no-bottom relative overflow-hidden z-1000 ">
         <div class="mh-800 relative">
             <div class="sw-overlay op-2"></div>
             <div class="gradient-edge-start light w-40 start-40 op-9 z-2"></div>
@@ -119,14 +119,12 @@
     <section class="p-0" aria-label="section">
         <div class="bg-color-op-8 text-light d-flex py-3 lh-1">
             <div class="de-marquee-list-1">
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4">Construction</div>
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Interior Design</div>
+                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4">Steel Structures</div>
+                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Civil Contracting</div>
+                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4">Glass &amp; Aluminium</div>
+                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Video Wall</div>
                 <div class="hs-2 d-inline-block mb-0 fs-48 mx-4">MEP Works</div>
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Joinery</div>
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4">Transportation</div>
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Material Supply</div>
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4">Heavy Equipment</div>
-                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Facility Management</div>
+                <div class="hs-2 d-inline-block mb-0 fs-48 mx-4 op-5">Interior &amp; Fitout</div>
             </div>
         </div>
     </section>
@@ -137,7 +135,7 @@
                 <div class="col-lg-6">
                     <div class="relative">
                         <div class="w-100 pe-5 pb-5 wow scaleIn">
-                            <img src="{{ asset('images/misc/hp-architecture-8254661_1281.jpg') }}" class="w-100 rounded-1" alt="">
+                            <img src="{{ asset('images/assets/develeco-hp-1.png') }}" class="w-100 rounded-1" alt="">
                         </div>
                     </div>
                 </div>
@@ -245,45 +243,45 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight" data-wow-delay=".0s">
-                        <img src="{{ asset('images/services/architecture-8254661.jpg') }}" class="hover-scale-1-1 w-100" alt="">
+                        <img src="{{ asset('images/assets/services1.jpeg') }}" class="hover-scale-1-1 w-100" alt="">
                         <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                            <div class="mb-3">Excavation, kerbstone, interlock, asphalting, block work, plastering, shuttering, steel fixing, concreting, tile, marble &amp; granite works.</div>
+                            <div class="mb-3">Structural steel frames, mezzanine floors, canopies, sheds, and industrial platforms built to international standards.</div>
                             <a class="btn-line" href="{{ route('services') }}">View Details</a>
                         </div>
                         <img src="{{ asset('images/icons-white/1.png') }}" class="abs abs-centered w-20 z-2" alt="">
                         <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                         <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                            <h3 class="hs-4 mb-3">Maintenance &amp; Construction</h3>
+                            <h3 class="hs-4 mb-3">Steel Structures</h3>
                         </div>
                         <div class="gradient-edge-bottom color abs w-100 h-70 bottom-0"></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight" data-wow-delay=".3s">
-                        <img src="{{ asset('images/services/2.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                        <img src="{{ asset('images/assets/services2.jpeg') }}" class="hover-scale-1-1 w-100" alt="">
                         <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                            <div class="mb-3">Crusher material, dune sand, wash sand, rock filling materials, gabro — reliable supply for all project needs.</div>
+                            <div class="mb-3">Excavation, kerbstone, interlock, asphalting, block work, plastering, shuttering, concreting and finishing.</div>
                             <a class="btn-line" href="{{ route('services') }}">View Details</a>
                         </div>
                         <img src="{{ asset('images/icons-white/2.png') }}" class="abs abs-centered w-20 z-2" alt="">
                         <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                         <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                            <h3 class="hs-4 mb-3">Transport &amp; Material Supply</h3>
+                            <h3 class="hs-4 mb-3">Civil Contracting</h3>
                         </div>
                         <div class="gradient-edge-bottom color abs w-100 h-70 bottom-0"></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight" data-wow-delay=".6s">
-                        <img src="{{ asset('images/services/3.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                        <img src="{{ asset('images/assets/services3.jpeg') }}" class="hover-scale-1-1 w-100" alt="">
                         <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                            <div class="mb-3">Carpentry, painting, gypsum, wallpaper, lighting, cladding — complete interior solutions for any space.</div>
+                            <div class="mb-3">Custom glass &amp; aluminium fabrication for facades, partitions, curtain walls and architectural elements.</div>
                             <a class="btn-line" href="{{ route('services') }}">View Details</a>
                         </div>
                         <img src="{{ asset('images/icons-white/3.png') }}" class="abs abs-centered w-20 z-2" alt="">
                         <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
                         <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                            <h3 class="hs-4 mb-3">Interior Design</h3>
+                            <h3 class="hs-4 mb-3">Glass &amp; Aluminium</h3>
                         </div>
                         <div class="gradient-edge-bottom color abs w-100 h-70 bottom-0"></div>
                     </div>
@@ -342,7 +340,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative mb-4">
                         <a href="{{ route('portfolio') }}">
-                            <img src="{{ asset('images/projects/architecture-8254661.jpg') }}" class="w-100 hover-scale-1-2" alt="">
+                            <img src="{{ asset('images/projects/1.jpg') }}" class="w-100 hover-scale-1-2" alt="">
                         </a>
                     </div>
                     <h3 class="hs-4">Orbital Highway</h3>
@@ -351,7 +349,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative mb-4">
                         <a href="{{ route('portfolio') }}">
-                            <img src="{{ asset('images/projects/2.webp') }}" class="w-100 hover-scale-1-2" alt="">
+                            <img src="{{ asset('images/projects/2.jpg') }}" class="w-100 hover-scale-1-2" alt="">
                         </a>
                     </div>
                     <h3 class="hs-4">Fibertech Glass Factory</h3>
@@ -360,7 +358,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative mb-4">
                         <a href="{{ route('portfolio') }}">
-                            <img src="{{ asset('images/projects/3.webp') }}" class="w-100 hover-scale-1-2" alt="">
+                            <img src="{{ asset('images/projects/3.jpg') }}" class="w-100 hover-scale-1-2" alt="">
                         </a>
                     </div>
                     <h3 class="hs-4">Al Bida Park</h3>

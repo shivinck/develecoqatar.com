@@ -25,26 +25,31 @@
     <link id="colors" href="{{ asset('css/colors/scheme-01.css') }}" rel="stylesheet" type="text/css">
     @stack('styles')
     <style>
-        header.header-light.transparent {
-            background: transparent !important;
+        /* Transparent header - overlay on banner */
+        header.header-light.transparent:not(.header-mobile),
+        header.header-light.transparent:not(.smaller):not(.header-mobile) {
+            background: none !important;
+            background-color: transparent !important;
             box-shadow: none !important;
             position: absolute;
             width: 100%;
         }
-        header.header-light.transparent #mainmenu > li > a,
-        header.header-light.transparent #mainmenu li.has-child:after {
+        header.header-light.transparent:not(.smaller):not(.header-mobile) #mainmenu > li > a,
+        header.header-light.transparent:not(.smaller):not(.header-mobile) #mainmenu li.has-child:after {
             color: #000 !important;
         }
-        header.header-light.transparent #mainmenu > li > a:hover {
+        header.header-light.transparent:not(.smaller):not(.header-mobile) #mainmenu > li > a:hover {
             color: var(--primary-color) !important;
         }
-        header.header-light.transparent .btn-main {
-            border-color: rgba(255,255,255,0.5);
+        header.header-light.transparent:not(.smaller):not(.header-mobile) .btn-main {
+            border-color: rgba(255,255,255,0.6);
+            color: #fff;
         }
-        header.header-light.transparent #menu-btn:before,
-        header.header-light.transparent #menu-btn span:before {
-            background: #fff;
+        header.header-light.transparent:not(.smaller):not(.header-mobile) #menu-btn:before,
+        header.header-light.transparent:not(.smaller):not(.header-mobile) #menu-btn span:before {
+            background: #000;
         }
+        /* Scrolled state - solid white */
         header.header-light.smaller {
             position: fixed !important;
             background: rgba(255,255,255,0.98) !important;
@@ -54,6 +59,14 @@
         header.header-light.smaller #mainmenu li.has-child:after {
             color: var(--heading-font-color) !important;
         }
+        header {
+            transition: all 0.2s ease !important;
+        }
+
+        .padding-top {
+            padding-top: 10rem;
+        }
+        /* Menu styling */
         #mainmenu > li > a {
             font-weight: 600 !important;
             font-size: 14px !important;
@@ -72,6 +85,38 @@
         }
         #logo img {
             max-height: 68px;
+        }
+        /* Banner zoom */
+        .page-banner-zoom {
+            position: absolute;
+            
+        }
+        @keyframes bannerZoom {
+            from { transform: scale(1); }
+            to { transform: scale(1.15); }
+        }
+        /* Icon circles */
+        .circle.bg-color-op-2 {
+            background: var(--primary-color) !important;
+        }
+        .circle.bg-color-op-2 img {
+            filter: brightness(0) invert(1);
+        }
+        /* Mobile menu - solid background */
+        header.header-mobile.header-light,
+        header.header-mobile.header-light.transparent {
+            background: #fff !important;
+            position: fixed !important;
+        }
+        header.header-mobile.header-light #mainmenu > li > a,
+        header.header-mobile.header-light.transparent #mainmenu > li > a {
+            color: var(--heading-font-color) !important;
+        }
+        header.header-mobile.header-light #menu-btn:before,
+        header.header-mobile.header-light #menu-btn span:before,
+        header.header-mobile.header-light.transparent #menu-btn:before,
+        header.header-mobile.header-light.transparent #menu-btn span:before {
+            background: #333 !important;
         }
     </style>
 </head>

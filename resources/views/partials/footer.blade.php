@@ -3,7 +3,7 @@
         <div class="row gx-5">
 
             <div class="col-lg-4 col-sm-6">
-                <img src="{{ asset('images/branding/develeco-logo.png') }}" class="logo-footer" alt="Develeco Qatar">
+                <img src="{{ asset('images/branding/develeco-logo-footer.png') }}" class="logo-footer" alt="Develeco Qatar">
                 <div class="spacer-20"></div>
 
                 <p>
@@ -38,12 +38,12 @@
                         <div class="widget">
                             <h2 class="hs-5">Services</h2>
                             <ul>
-                                <li><a href="{{ route('services') }}">Transport &amp; Material Supply</a></li>
-                                <li><a href="{{ route('services') }}">Heavy Equipment Rental</a></li>
-                                <li><a href="{{ route('services') }}">Maintenance &amp; Construction</a></li>
-                                <li><a href="{{ route('services') }}">Interior Design</a></li>
+                                <li><a href="{{ route('services') }}">Steel Structures</a></li>
+                                <li><a href="{{ route('services') }}">Civil Contracting</a></li>
+                                <li><a href="{{ route('services') }}">Glass &amp; Aluminium</a></li>
+                                <li><a href="{{ route('services') }}">Video Wall</a></li>
                                 <li><a href="{{ route('services') }}">MEP Works</a></li>
-                                <li><a href="{{ route('services') }}">Facility Management</a></li>
+                                <li><a href="{{ route('services') }}">Interior &amp; Fitout</a></li>
                             </ul>
                         </div>
                     </div>

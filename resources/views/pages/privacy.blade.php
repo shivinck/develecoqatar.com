@@ -4,9 +4,9 @@
 
 @section('content')
 
-    <section class="jarallax relative overflow-hidden z-1000">
+    <section class="jarallax relative overflow-hidden z-1000 padding-top">
         <img src="{{ asset('images/background/architecture-8254661.jpg') }}" class="jarallax-img page-banner-zoom" alt="">
-        <div class="sw-overlay op-2"></div>
+        <div class="sw-overlay op-5"></div>
         <div class="gradient-edge-start light w-40 start-40 op-9 z-2"></div>
         <div class="abs w-40 h-100 bg-white top-0 start-0 op-9 z-2"></div>
         <div class="container relative z-2">

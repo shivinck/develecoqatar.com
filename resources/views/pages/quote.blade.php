@@ -4,9 +4,9 @@
 
 @section('content')
 
-    <section class="jarallax relative overflow-hidden z-1000">
+    <section class="jarallax relative overflow-hidden z-1000 padding-top">
         <img src="{{ asset('images/background/architecture-8254661.jpg') }}" class="jarallax-img page-banner-zoom" alt="">
-        <div class="sw-overlay op-2"></div>
+        <div class="sw-overlay op-5"></div>
         <div class="gradient-edge-start light w-40 start-40 op-9 z-2"></div>
         <div class="abs w-40 h-100 bg-white top-0 start-0 op-9 z-2"></div>
         <div class="container relative z-2">
@@ -82,13 +82,12 @@
                                     <div class="relative">
                                         <select name="project_type" class="form-control" required>
                                             <option value="">Select a Service</option>
-                                            <option {{ old('project_type') == 'Transport & Material Supply' ? 'selected' : '' }}>Transport &amp; Material Supply</option>
-                                            <option {{ old('project_type') == 'Heavy Equipment Rental' ? 'selected' : '' }}>Heavy Equipment Rental</option>
-                                            <option {{ old('project_type') == 'Maintenance & Construction' ? 'selected' : '' }}>Maintenance &amp; Construction</option>
-                                            <option {{ old('project_type') == 'Interior Design' ? 'selected' : '' }}>Interior Design</option>
+                                            <option {{ old('project_type') == 'Steel Structures' ? 'selected' : '' }}>Steel Structures</option>
+                                            <option {{ old('project_type') == 'Civil Contracting' ? 'selected' : '' }}>Civil Contracting</option>
+                                            <option {{ old('project_type') == 'Glass & Aluminium' ? 'selected' : '' }}>Glass &amp; Aluminium</option>
+                                            <option {{ old('project_type') == 'Video Wall' ? 'selected' : '' }}>Video Wall</option>
                                             <option {{ old('project_type') == 'MEP Works' ? 'selected' : '' }}>MEP Works</option>
-                                            <option {{ old('project_type') == 'Joinery' ? 'selected' : '' }}>Joinery</option>
-                                            <option {{ old('project_type') == 'Facility Management' ? 'selected' : '' }}>Facility Management</option>
+                                            <option {{ old('project_type') == 'Interior & Fitout' ? 'selected' : '' }}>Interior &amp; Fitout</option>
                                             <option {{ old('project_type') == 'Other' ? 'selected' : '' }}>Other</option>
                                         </select>
                                         <i class="absolute top-0 end-0 id-color pt-3 pe-3 icofont-simple-down"></i>

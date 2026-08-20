@@ -7,9 +7,9 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="{{ route('home') }}">
-                                <img class="logo-main" src="{{ asset('images/branding/develeco-logo.png') }}" alt="Develeco Qatar">
-                                <img class="logo-scroll" src="{{ asset('images/branding/develeco-logo.png') }}" alt="Develeco Qatar">
-                                <img class="logo-mobile" src="{{ asset('images/branding/develeco-logo.png') }}" alt="Develeco Qatar">
+                                <img class="logo-main" src="{{ asset('images/branding/develeco-logo-hp.png') }}" alt="Develeco Qatar">
+                                <img class="logo-scroll" src="{{ asset('images/branding/develeco-logo-hp.png') }}" alt="Develeco Qatar">
+                                <img class="logo-mobile" src="{{ asset('images/branding/develeco-logo-hp.png') }}" alt="Develeco Qatar">
                             </a>
                         </div>
                         <!-- logo end -->

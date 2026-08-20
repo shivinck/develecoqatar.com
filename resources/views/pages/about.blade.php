@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <section class="jarallax relative overflow-hidden z-1000">
+    <section class="jarallax relative overflow-hidden z-1000 padding-top">
         <img src="{{ asset('images/background/architecture-8254661.jpg') }}" class="jarallax-img page-banner-zoom" alt="">
         <div class="sw-overlay op-2"></div>
         <div class="gradient-edge-start light w-40 start-40 op-9 z-2"></div>
@@ -28,7 +28,7 @@
                 <div class="col-lg-6">
                     <div class="relative">
                         <div class="w-100 pe-5 pb-5 wow scaleIn">
-                            <img src="{{ asset('images/misc/hp-architecture-8254661_1281.jpg') }}" class="w-100 rounded-1" alt="">
+                            <img src="{{ asset('images/assets/develeco-hp-1.png') }}" class="w-100 rounded-1" alt="">
                         </div>
                     </div>
                 </div>

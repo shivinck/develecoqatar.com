@@ -4,9 +4,9 @@
 
 @section('content')
 
-    <section class="jarallax relative overflow-hidden z-1000">
+    <section class="jarallax relative overflow-hidden z-1000 padding-top">
         <img src="{{ asset('images/background/architecture-8254661.jpg') }}" class="jarallax-img page-banner-zoom" alt="">
-        <div class="sw-overlay op-2"></div>
+        <div class="sw-overlay op-5"></div>
         <div class="gradient-edge-start light w-40 start-40 op-9 z-2"></div>
         <div class="abs w-40 h-100 bg-white top-0 start-0 op-9 z-2"></div>
         <div class="container relative z-2">
@@ -34,7 +34,7 @@
             <div class="row g-4">
                 <div class="col-md-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative mb-4">
-                        <img src="{{ asset('images/projects/architecture-8254661.jpg') }}" class="w-100 hover-scale-1-2" alt="">
+                        <img src="{{ asset('images/projects/1.jpg') }}" class="w-100 hover-scale-1-2" alt="">
                     </div>
                     <h4>Al Bida Park</h4>
                     <div class="d-flex mb-3">
@@ -44,7 +44,7 @@
 
                 <div class="col-md-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative mb-4">
-                        <img src="{{ asset('images/projects/2.webp') }}" class="w-100 hover-scale-1-2" alt="">
+                        <img src="{{ asset('images/projects/2.jpg') }}" class="w-100 hover-scale-1-2" alt="">
                     </div>
                     <h4>Fibertech Glass Factory – Stage 1</h4>
                     <div class="d-flex mb-3">
@@ -54,7 +54,7 @@
 
                 <div class="col-md-4 col-sm-6">
                     <div class="hover rounded-1 overflow-hidden relative mb-4">
-                        <img src="{{ asset('images/projects/3.webp') }}" class="w-100 hover-scale-1-2" alt="">
+                        <img src="{{ asset('images/projects/3.jpg') }}" class="w-100 hover-scale-1-2" alt="">
                     </div>
                     <h4>Doha Travels Interior</h4>
                     <div class="d-flex mb-3">
